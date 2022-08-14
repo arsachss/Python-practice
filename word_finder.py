@@ -1,5 +1,7 @@
 def search(x,y):
+    x = x.upper()
     x = x.split(' ')
+    y = y.upper()
     if y in x:
         return("Word found")
     else:
